@@ -1,4 +1,4 @@
-Did you know that Ghidra automatically detects and renders image files embedded in a binary, including animated GIFs?
+Did you know that Ghidra automatically detects and renders image and audio files embedded in a binary, including animated GIFs?
 
 Open `surprise` in Ghidra for a nice surprise.
 
