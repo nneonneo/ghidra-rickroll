@@ -6,7 +6,10 @@ rickroll-roll.gif:
 %.h: %.gif
 	xxd -i $^ > $@
 
-surprise: surprise.c rickroll-roll.h
+%-au.h: %.au
+	xxd -i $^ > $@
+
+surprise: surprise.c rickroll-roll.h rickroll-au.h
 	$(CC) $< -O2 -s -o $@
 
 .PHONY: all
